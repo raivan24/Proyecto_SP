@@ -1,1 +1,2 @@
 
+hay que descomprimir el archivo bootstrap-icons ahi estan los iconos y una fonts

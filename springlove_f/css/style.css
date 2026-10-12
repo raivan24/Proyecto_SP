@@ -1,0 +1,60 @@
+ body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0fdf4; /* Un verde muy claro */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .login-container {
+            background-color: #FEEBE7;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            padding: 2.5rem;
+            max-width: 400px;
+            width: 90%;
+            text-align: center;
+        }
+        .form-control {
+            border: 1px solid #ced4da;
+            border-radius: 8px;
+            padding: 0.75rem 1rem;
+            width: 100%;
+            transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+        .form-control:focus {
+            outline: none;
+            border-color: #34d399; /* Verde esmeralda */
+            box-shadow: 0 0 0 0.25rem rgba(52, 211, 153, 0.25);
+        }
+        .btn-primary {
+            background-color: #10b981; /* Verde esmeralda */
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: background-color 0.2s ease-in-out;
+            border: none; /* Eliminar borde por defecto de Bootstrap */
+        }
+        .btn-primary:hover {
+            background-color: #059669; /* Verde esmeralda más oscuro */
+        }
+        .error-message {
+            color: #dc3545; /* Rojo de Bootstrap */
+            font-size: 0.875rem;
+            margin-top: 0.25rem;
+            text-align: left;
+            display: block;
+        }
+        .logo-text {
+            color: #065f46; /* Verde oscuro para el logo */
+            font-weight: 700;
+            font-size: 2.25rem; /* text-4xl */
+        }
+        .logo-subtext {
+            color: #34d399; /* Verde esmeralda */
+            font-weight: 500;
+            font-size: 1.125rem; /* text-lg */
+        }
+
+        
